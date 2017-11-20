@@ -1,1 +1,1 @@
-Hello!
+It is default page

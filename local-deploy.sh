@@ -13,7 +13,7 @@ mvn clean package
 sudo cp $DEPLOY_PATH$WAR_NAME $WEBAPP_PATH$WAR_NAME
 
 #Restart Tomcat
-#sudo initctl restart tomcat
+sudo initctl restart tomcat
 
 #Restart Tomcat
-sudo systemctl restart tomcat
+#sudo systemctl restart tomcat

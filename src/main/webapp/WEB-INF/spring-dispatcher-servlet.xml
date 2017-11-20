@@ -3,7 +3,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean name="/welcome.htm"
+    <bean name="/welcome"
           class="com.goit.spring.off2.controller.TestController" />
 
     <bean id="viewResolver"

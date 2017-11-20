@@ -83,11 +83,6 @@ public class DataConfig {
         return hibernateJpaVendorAdapter;
     }
 
-    @Bean
-    public TestBean testBean() {
-        return new TestBean();
-    }
-
     private Properties getHibernateProperties() {
         Properties properties = new Properties();
         properties.put(PROP_HIBERNATE_DIALECT, env.getRequiredProperty(PROP_HIBERNATE_DIALECT));
